@@ -27,15 +27,16 @@ target/**
 
 # Eclipse specific files/directories #
 ######################################
-.recommenders
-.metadata
+..recommenders
+..metadata
 .project
 .classpath
 .settings/
 .RemoteSystemsTempFiles
 
-bin/**
+.bin
 HELP.md
+..mvn
 mvnw
 mvnw.cmd
 tmp/**
