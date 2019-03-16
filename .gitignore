@@ -1,26 +1,40 @@
-HELP.md
-/target/
-!.mvn/wrapper/maven-wrapper.jar
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Build output directies #
+##########################
+/target
+*/target
+
+
+# Eclipse specific files/directories #
+######################################
+.recommenders
+.metadata
+RemoteSystemsTempFiles
 .settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-/build/
+bin/
+HELP.md
+mvnw
+mvnw.cmd
+.classpath
+.project
