@@ -22,19 +22,23 @@
 
 # Build output directies #
 ##########################
-/target
-*/target
+target/**
 
 
 # Eclipse specific files/directories #
 ######################################
 .recommenders
 .metadata
-RemoteSystemsTempFiles
-.settings
-bin/
+.project
+.classpath
+.settings/
+.RemoteSystemsTempFiles
+
+bin/**
 HELP.md
 mvnw
 mvnw.cmd
-.classpath
-.project
+tmp/**
+tmp/**/*
+
+
